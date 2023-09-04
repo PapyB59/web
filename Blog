@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Blog</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .card {
+            margin-bottom: 30px;
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin-top: 30px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h1>Blog</h1>
+
+        <div class="row">
+            <!-- Article 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Article+1" class="card-img-top" alt="Article 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre de l'article 1</h5>
+                        <p class="card-text">Résumé de l'article 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">Lire plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Article+2" class="card-img-top" alt="Article 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre de l'article 2</h5>
+                        <p class="card-text">Résumé de l'article 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">Lire plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Article+3" class="card-img-top" alt="Article 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre de l'article 3</h5>
+                        <p class="card-text">Résumé de l'article 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">Lire plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
